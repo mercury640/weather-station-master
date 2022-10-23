@@ -4,7 +4,7 @@ RUN mkdir -p /home/service
 
 WORKDIR /home/service/
 
-COPY code/* /home/service/
+COPY nodejs/* /home/service/
 
 RUN npm install
  
