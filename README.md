@@ -32,3 +32,5 @@ environment_variable {
       type  = "PLAINTEXT"
       value = ""
     }
+
+In additional, to get full function of Terraform code,  still need to add relevant rolse for ECR and also need to update ECR task Difinition manually.
