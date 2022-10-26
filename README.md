@@ -22,3 +22,13 @@ To describe how to set up pipeline with GitHub, CodeBuild, ECR, Codepipeline and
 # Pipeline Flow
 
 GitHub --> get buildspec.yml --> build image accoding to Dockerfile --> push image to ECR --> Deploy image to ECS (EC2)
+
+# Notification
+
+Before applying Terraform, need to update AWS account ID in terraform/codebuild.tf
+
+environment_variable {
+      name  = "AWS_ACCOUNT_ID"
+      type  = "PLAINTEXT"
+      value = ""
+    }
