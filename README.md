@@ -2,7 +2,7 @@
 To describe how to set up pipeline with GitHub, CodeBuild, ECR, Codepipeline and ECS   
 
 # REPO
-3 braches,  "dev" "staging" "prod" prepared for pipelines
+3 branches,  "dev" "staging" "prod" prepared for pipelines
 
 # ECR
 3 repos "weather-station-dev" "weather-station-staging" "weather-station-prod"
