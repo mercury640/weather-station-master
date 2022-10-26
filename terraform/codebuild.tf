@@ -64,7 +64,7 @@ resource "aws_codebuild_project" "weather-station-dev" {
     environment_variable {
       name  = "AWS_ACCOUNT_ID"
       type  = "PLAINTEXT"
-      value = "454451034868"
+      value = ""
     }
     environment_variable {
       name  = "IMAGE_REPO_NAME"
@@ -142,7 +142,7 @@ resource "aws_codebuild_project" "weather-station-staging" {
     environment_variable {
       name  = "AWS_ACCOUNT_ID"
       type  = "PLAINTEXT"
-      value = "454451034868"
+      value = ""
     }
     environment_variable {
       name  = "IMAGE_REPO_NAME"
@@ -219,7 +219,7 @@ resource "aws_codebuild_project" "weather-station-prod" {
     environment_variable {
       name  = "AWS_ACCOUNT_ID"
       type  = "PLAINTEXT"
-      value = "454451034868"
+      value = ""
     }
     environment_variable {
       name  = "IMAGE_REPO_NAME"
